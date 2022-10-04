@@ -9,7 +9,7 @@ const BootstrapCard = props => {
   
 	// 1) replace the hard-coded image, description, link, etc. With their property variable.
 	return (
-		<div className="card m-5">
+		<div className="card m-5 w-25">
 			<img className="card-img-top" src={props.urlImg} />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
